@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<link rel="icon" href="imagens/js.png">
+		<script>
+
+			/*
+				&& = E
+				|| = OU
+				! = NÃO
+			*/
+			
+			//true && true = true
+			if(2 == 2 && 3 >= 1) {
+				document.write('Verdadeiro <br />')
+			} else {
+				document.write('Falso <br />')
+			}
+
+			// true && true && true = false
+			if(2 == 2 && 3 >= 1  && 'a' == 'b') {
+				document.write('Verdadeiro <br />')
+			} else {
+				document.write('Falso <br />')
+			}
+
+			// true || true = false
+			if(2 == 2 || 3 >= 1) {
+				document.write('Verdadeiro <br />')
+			} else {
+				document.write('Falso <br />')
+			}
+
+			// true || true || false = true
+			if(2 == 2 || 3 >= 1 || 'a' == 'b') {
+				document.write('Verdadeiro <br />')
+			} else {
+				document.write('Falso <br />')
+			}
+
+			// !false = true
+			if(!(4 == 2)) {
+				document.write('Verdadeiro <br />')
+			} else {
+				document.write('Falso <br />')
+			}
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

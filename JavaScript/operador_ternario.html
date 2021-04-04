@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+		<link rel="icon" href="imagens/js.png">
+		<script>
+
+			var nota = prompt('Digite a nota do aluno: ')
+			var faltas = prompt('Digite a qtd de faltas: ')
+			
+			var media = 7
+			var faltas_max = 15
+
+			/*
+			if (nota >= media && faltas <= faltas_max) {
+				document.write('Aprovado')
+			} else {
+				document.write('Reprovado')
+			}
+			*/
+
+			var resultado = (nota >= media && faltas <= faltas_max) ? 'Aprovado' : 'Reprovado'
+			document.write(resultado)
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
